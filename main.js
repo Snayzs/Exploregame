@@ -242,7 +242,7 @@ animate();
 
 
 // Controller buttons
-const buttons = document.querySelectorAll('.button');
+const buttons = document.querySelectorAll('.pad a');
 
 lastkey = ''
 buttons.forEach((button, index) => {
